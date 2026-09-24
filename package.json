@@ -1,0 +1,40 @@
+{
+  "name": "tool-tile-match",
+  "private": true,
+  "version": "0.21.0-beta.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:host": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "preview:host": "vite preview --host 0.0.0.0",
+    "android:doctor": "node scripts/android-wrapper-doctor.mjs",
+    "android:add": "capacitor add android",
+    "android:create": "node scripts/create-android-wrapper.mjs",
+    "android:create:open": "node scripts/create-android-wrapper.mjs --open",
+    "android:sync": "npm run build && capacitor sync android",
+    "android:copy": "capacitor copy android",
+    "cap:sync": "capacitor sync",
+    "cap:sync:android": "capacitor sync android",
+    "cap:copy:android": "capacitor copy android",
+    "cap:open:android": "capacitor open android",
+    "android:prepare": "npm run build && capacitor sync android",
+    "android:open": "capacitor open android"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/android": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@capacitor/cli": "latest"
+  }
+}

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e2730"/>
+      <stop offset="0.55" stop-color="#11171d"/>
+      <stop offset="1" stop-color="#07090b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="74%" cy="20%" r="50%">
+      <stop offset="0" stop-color="#ffbf3c" stop-opacity="0.55"/>
+      <stop offset="0.36" stop-color="#f28a1a" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#f28a1a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="blueprint" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0v60" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="1"/>
+      <path d="M30 0v60M0 30h60" fill="none" stroke="#ffffff" stroke-opacity="0.025" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <rect width="1600" height="1000" fill="url(#blueprint)"/>
+  <g opacity="0.22" fill="none" stroke="#ffc23d" stroke-width="3">
+    <path d="M0 730h1600"/>
+    <path d="M150 650h260v80H150zM220 600h120v50H220z"/>
+    <path d="M1100 710h270v70h-270zM1140 640h180v70h-180z"/>
+  </g>
+  <g opacity="0.34" stroke="#ffc23d" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M1150 160v470"/>
+    <path d="M1150 160h-410"/>
+    <path d="M820 160l330 180"/>
+    <path d="M740 160l100 62"/>
+    <path d="M890 160l100 62"/>
+    <path d="M1040 160l100 62"/>
+    <path d="M1150 160l120 130"/>
+    <path d="M1210 630h-120"/>
+  </g>
+  <g opacity="0.9" fill="#050708">
+    <path d="M0 755h1600v245H0z"/>
+    <path d="M130 755l70-160h42l-70 160zM250 755l70-210h42l-70 210zM370 755l70-140h42l-70 140z" opacity="0.72"/>
+    <path d="M1010 755l-90-190h60l92 190zM1110 755l-40-260h65l42 260zM1255 755l90-170h55l-86 170z" opacity="0.72"/>
+    <path d="M555 755h360l-25-155H580z" opacity="0.74"/>
+  </g>
+  <g opacity="0.4" fill="#ffc23d">
+    <circle cx="1260" cy="170" r="70"/>
+    <rect x="0" y="770" width="1600" height="18"/>
+  </g>
+  <g opacity="0.2">
+    <path d="M0 805h1600" stroke="#ffffff" stroke-width="2"/>
+    <path d="M80 830h220M360 830h260M720 830h190M980 830h310" stroke="#ffc23d" stroke-width="5" stroke-dasharray="30 18"/>
+  </g>
+</svg>
